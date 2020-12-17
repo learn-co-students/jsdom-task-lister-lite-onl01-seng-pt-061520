@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskList = document.querySelector("#tasks");
   
   //Add to the List's Function//
-
-    // First prevent the page from refreshing the page
   taskForm.addEventListener("submit", function(event){
+    
+    // First prevent the page from refreshing the page
     event.preventDefault();
 
     // Second, get the .value of the information being passed in.
